@@ -2,16 +2,16 @@
 require File.expand_path("../lib/zendesk/version", __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.add_development_dependency "yajl-ruby", "~> 0.8.2"
-  gem.add_development_dependency "nokogiri", "~> 1.4"
-  gem.add_development_dependency "rake", "~> 0.8"
-  gem.add_development_dependency "webmock", "~> 1.6"
-  gem.add_development_dependency "yard", "~> 0.7"
+  gem.add_development_dependency "yajl-ruby", "> 0.8.2"
+  gem.add_development_dependency "nokogiri", "> 1.4"
+  gem.add_development_dependency "rake", "> 0.8"
+  gem.add_development_dependency "webmock", "> 1.6"
+  gem.add_development_dependency "yard", "> 0.7"
   gem.add_development_dependency "minitest"
   gem.add_development_dependency "pry"
 
-  gem.add_runtime_dependency "hashie", "~> 1.0.0"
-  gem.add_runtime_dependency "faraday", "~> 0.7.3"
+  gem.add_runtime_dependency "hashie", "> 1.0.0"
+  gem.add_runtime_dependency "faraday", "> 0.7.3"
   gem.add_runtime_dependency "faraday_middleware", "0.7.0"
   gem.add_runtime_dependency "multi_xml", "> 0.2.0"
   gem.add_runtime_dependency "multi_json", "> 1.0.0"
