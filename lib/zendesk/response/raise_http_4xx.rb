@@ -44,7 +44,7 @@ module Zendesk
         if body.nil?
           nil
         elsif body.is_a? Hashie::Mash
-          ": #{body["error"].title} #{body['error'].message}"
+          ": #{body["error"]}"
         elsif body.is_a? Array
           ": #{body.join(' ')}"
         elsif body["errors"]
